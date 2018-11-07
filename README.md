@@ -2,4 +2,4 @@
 
 Zum installieren führe folgenden Befehl aus:
 
-`npm install git+https://github.com/loomgmbh/node-drupal-attributes.git#1.0.0`
+`npm install git+https://github.com/loomgmbh/node-drupal-attributes.git#1.0.1`

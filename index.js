@@ -12,9 +12,18 @@ module.exports = class LoomDrupalAttributes {
   }
 
   static createAttribute(attributes) {
-    const drupal_attributes = new DrupalAttributes(attributes);
+    const drupal_attributes = new DrupalAttribute(attributes);
     drupal_attributes.twig_markup = true;
     return drupal_attributes;
+  }
+
+  static transformattributes(attributes) {
+    const array = [];
+
+    for (const name in attributes) {
+      array.push([name, attributes[name]]);
+    }
+    return array;
   }
 
   static extend(templateInfo, index) {

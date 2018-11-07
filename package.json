@@ -1,6 +1,6 @@
 {
   "name": "loom-drupal-attributes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper for drupal-attributes",
   "main": "index.js",
   "scripts": {
