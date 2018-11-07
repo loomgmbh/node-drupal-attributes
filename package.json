@@ -1,0 +1,22 @@
+{
+  "name": "loom-drupal-attributes",
+  "version": "1.0.0",
+  "description": "Wrapper for drupal-attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loomgmbh/node-drupal-attributes.git"
+  },
+  "author": "LoomZero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loomgmbh/node-drupal-attributes/issues"
+  },
+  "homepage": "https://github.com/loomgmbh/node-drupal-attributes#readme",
+  "dependencies": {
+    "drupal-attribute": "^1.0.2"
+  }
+}
